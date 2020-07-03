@@ -1,4 +1,5 @@
-# ASAN output
+# Summary
+
 ```
 =================================================================
 ==9301==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x60200000eea0 at pc 0x0000004f9c42 bp 0x7ffeed2863f0 sp 0x7ffeed2863e8
@@ -55,3 +56,16 @@ Shadow byte legend (one shadow byte represents 8 application bytes):
   Right alloca redzone:    cb
 ==9301==ABORTING
 ```
+
+# Version
+
+4.1.0
+
+# Steps to reproduce
+
+tiff2ps id:000008,sig:06,src:000057+000136,op:splice,rep:2
+
+# Platform
+
+Ubuntu 16.04.6 LTS
+clang-3.8
