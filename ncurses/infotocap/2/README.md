@@ -3,7 +3,7 @@ stack-buffer-overflow in progs/dump_entry.c:1144 in fmt_entry
 
 # Version 
 
-    ncurses-6.2-20200704
+ncurses-6.2-20200704
 
 # How to build
 ```shell
