@@ -3,7 +3,7 @@ heap-buffer-overflow in ncurses/tinfo/captoinfo.c:644 in _nc_infotocap
 
 # Version 
 
-    ncurses-6.2-20200704
+ncurses-6.2-20200704
 
 # How to build
 ```shell
